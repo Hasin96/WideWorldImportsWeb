@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\WorldWideImports.Data\WorldWideImports.Data.csproj" />
+    <ProjectReference Include="..\..\WorldWideImports.Domain\WorldWideImports.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
