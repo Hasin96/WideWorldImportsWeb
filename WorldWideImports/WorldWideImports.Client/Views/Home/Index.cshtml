@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+
+<div class="row">
+    <div class="col-sm">
+        <div class="linechart-container"></div>
+    </div>
+    <div class="col-sm">
+        <div class="barchart-container"></div>
+        <div class="profitBarchart-container"></div>
+        <div class="profitMarginBarchart-container"></div>
+        <div class="orderCountBarChart-container"></div>
+        <div class="top5SalesBySalesTerritory-container"></div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm ">
+        <div class="js-last-5-orders-container">
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="//unpkg.com/d3"></script>
+    <script src="~/js/index.js"></script>
+
+
+}
